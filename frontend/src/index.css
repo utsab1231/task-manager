@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Critical {
+    @apply text-[#800080];
+}
+
+.High {
+    @apply text-[#FF0000];
+}
+
+.Moderate {
+    @apply text-[#FFA500];
+}
+.Medium {
+    @apply text-[#FFFF00];
+}
+
+.Low {
+    @apply text-[#00FF00];
+}
