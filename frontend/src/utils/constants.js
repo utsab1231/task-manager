@@ -1,4 +1,4 @@
-const API_URL = "https://task-manager-backend-2jvl.onrender.com/api/v1";
+const API_URL = "http://localhost:5000/api/v1";
 
 export const REGISTER_URL = `${API_URL}/user/signup`;
 export const LOGIN_URL = `${API_URL}/user/login`;
